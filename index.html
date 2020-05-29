@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Svit Web Builder</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+</head>
+
+<body class='body'>
+    
+    <div class='header'>
+        <div class="header-wrap">
+            <div>
+                <img class='h-image' src="images/svit-logo-white-417.png">
+            </div>
+            <div class='trigger-container' id="menu-button" onclick="onMenuButtonClick()">
+                <img class='trigger-image' src="images/menu.png">
+            </div>
+            <div  class='m-button-box' id='menu'>
+                <div class='m-button'>
+                    <a href="/#feature-cont" class="m-link">Функції</a>
+                </div>
+                <div class='m-button'>
+                    <a href="/#slider-container" class="m-link">Відгуки</a>
+                </div>
+                <div class='m-button'>
+                   <a href="/#pricing-plans" class="m-link">Тарифи</a>
+                </div>
+                
+             </div>
+        </div>    
+    </div>
+   
+    <div class='intro'>
+        <div class='intro-wrap'>
+           <img class='intro-image'
+                src="images/laptop-1.png"> 
+           <div class='intro-text'>
+               <div class='title-1'>
+                <p>
+                    Створіть власний сайт за кілька кліків
+                </p>
+            </div>
+                <div class='text-white'>
+                Ви можете легко редагувати свій сайт. Створіть свій сайт саме так, як хочете. Виберіть один з більш ніж 50 шаблонів дизайнера для кожного бізнесу.
+            </div>
+                <a href='https://google.com' 
+                class='general-link'>
+                <div class='button-2'>
+                    <div class='button-2-text'>
+                        СТВОРИТИ
+                    </div>
+                </div>
+            </a>
+           </div>
+        </div>
+    </div>
+    
+    <div class='feature-cont' id='feature-cont'>
+        <div class='feature-wrap-cont'>
+            <img class='side-image reveal'
+                src="images/no-code.png">
+            <div class='feature-text'>
+                <div class='title-4'>Легкий у користуванні</div>
+                <div class='feature-line'></div>
+                <div class='general-text'>Редактор дозволяє створювати сайти без знання коду</div>
+                <div class='general-text'>Інтерфейс достатньо простий, щоб почати користуватись одразу. Можна почати з чистого аркушу або ж складного шаблону. А якщо виникнуть питання, то наша команда одразу прийде на допомогу.</div> 
+            </div>
+        </div>
+    </div> 
+    <div class='feature-cont-2'>
+        <div class='feature-wrap-cont-2'>
+            <img class='side-image-2 reveal'
+                src="images/design-as-you-want.png">
+            <div class='feature-text'>
+                <div class='title-4'>Дизайн, як ви хочете</div>
+                <div class='feature-line'></div>
+                <div class='general-text'>Все під вашим контролем</div>
+                <div class='general-text'>Створіть свій сайт саме так, як хочете. Кожен елемент на веб-сторінці налаштовується так, ніби ви використовуєте html та css.</div>  
+            </div>
+        </div>
+    </div>
+    <div class='feature-cont-3'>
+        <div class='feature-wrap-cont'>
+           <img class='side-image reveal'
+                src="images/cms.png">
+            <div class='feature-text'>
+                <div class='title-4'>CMS для зручності</div>
+                <div class='feature-line'></div>
+                <div class='general-text'>Вбудована система управління вмістом</div>
+                <div class='general-text'>Потрібна і зручна для ведення блогу, ведення портфоліо, тощо. CMS, яка кастомізується під ваші потреби.</div>  
+            </div>
+        </div>
+    </div>  
+    
+     <div class="slider-container" id="slider-container">
+       <div class="slides-wrap">
+            <div class="my-slider">
+                <div class='slide'>
+                    <div class="slide-wrap">
+                        <img class="quote-open" src="images/quote-open.png">
+                        <div class="general-text">
+                            Вбудована система управління вмістом Потрібна і зручна для ведення блогу, ведення портфоліо, тощо. CMS, яка кастомізується під ваші потреби.
+                        </div>
+                        <img class="quote-close" src="images/quote-close.png">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class='slide-wrap'>
+                        <img class="quote-open" src="images/quote-open.png">
+                        <div class="general-text">
+                            Вбудована система управління вмістом Потрібна і зручна для ведення блогу, ведення портфоліо, тощо. CMS, яка кастомізується під ваші потреби.
+                        </div>
+                        <img class="quote-close" src="images/quote-close.png">
+                    </div>
+                </div>
+                <div class="slide">
+                   <div class='slide-wrap'>
+                        <img class="quote-open" src="images/quote-open.png">
+                        <div class="general-text">
+                            Вбудована система управління вмістом Потрібна і зручна для ведення блогу, ведення портфоліо, тощо. CMS, яка кастомізується під ваші потреби.
+                        </div>
+                        <img class="quote-close" src="images/quote-close.png">
+                    </div> 
+                </div>
+            </div>
+            <div class="controls" id="customize-controls">
+                <div class="prev">
+                  <img class="arrow" src="images/arrow-left.png" alt="">
+                </div>
+                <div class="next">
+                  <img class="arrow" src="images/arrow-right.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+       
+    <div id='pricing-plans' class='pricing-plans'>
+        <div class='title-4'>Тарифи</div>
+        <div class='plans'>
+            <div class='plan'>
+                <div class='plan-name'>Без оплат</div>
+                <div class='plan-price'>
+                    <div class='plan-number'>$0</div>
+                </div>
+                <div class='plan-text'>Без кредитних карток, юез випробовувальних термінів</div>
+            </div>
+            <div class='plan'>
+                <div class='plan-name'>Стандарт</div>
+                <div class='plan-price'>
+                    <div class='plan-number'>$4</div>
+                    <div class='plan-currency'>USD</div>
+                </div>
+                <div class='plan-text'>За місяць, якщо оплачуєте за рік; 7$, якщо оплачуєте за місяць </div>
+            </div>
+            <div class='plan'>
+                <div class='plan-name'>Бізнес</div>
+                <div class='plan-price'>
+                    <div class='plan-number'>$12</div>
+                    <div class='plan-currency'>USD</div>
+                </div>
+                <div class='plan-text'>За місяць, якщо оплачуєте за рік; 7$, якщо оплачуєте за місяць </div>
+            </div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>Кількість проектів</div>
+            <div class='text-p'>5</div>
+            <div class='text-p'>Безмежна</div>
+            <div class='text-p'>Безмежна</div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>Підключіть свій домен</div>
+            <div class='text-p'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>Пам'ять для кожного проекту</div>
+            <div class='text-p'>50 MB</div>
+            <div class='text-p'>200 MB</div>
+            <div class='text-p'>1 GB</div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>SSL</div>
+            <div class='text-p'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>CDN</div>
+            <div class='text-p'></div>
+            <div class='text-p'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check' /></div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>К-сть статичних сторінок</div>
+            <div class='text-p'>10</div>
+            <div class='text-p'>100</div>
+            <div class='text-p'>1000</div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>Favicon та webclip</div>
+            <div class='text-p'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>Без реклами</div>
+            <div class='text-p'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>Google Аналітика</div>
+            <div class='text-p'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>Без логотипу Svit</div>
+            <div class='text-p'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>НЕ брендований сайт</div>
+            <div class='text-p'></div>
+            <div class='text-p'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>К-сть Form submissions</div>
+            <div class='text-p'>20</div>
+            <div class='text-p'>50</div>
+            <div class='text-p'>Безмежна</div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>CMS items</div>
+            <div class='text-p'>500</div>
+            <div class='text-p'>2000</div>
+            <div class='text-p'>Безмежна</div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>Пошук на сайті</div>
+            <div class='text-p'></div>
+            <div class='text-p'></div>
+            <div class='check-cont'><img src='/images/check.png' class='check'></div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>К-сть редакторів</div>
+            <div class='text-p'>1</div>
+            <div class='text-p'>1</div>
+            <div class='text-p'>5</div>
+        </div>
+        <div class='item'>
+            <div class='title-p'>Підтримка</div>
+            <div class='text-p'>Пошта та форум</div>
+            <div class='text-p'>Пошта та форум</div>
+            <div class='text-p'>Пріоритет</div>
+        </div>
+        <div class='item'><a href='https://accounts.svit.net/login?next=https%3A%2F%2Fsites.svit.net%2Faddsite%2Fv2' class='pricing-plan-add-link'>
+                <div class='pricing-plan-add-text'>ВИБРАТИ</div>
+            </a><a href='https://accounts.svit.net/login?next=https%3A%2F%2Fsites.svit.net%2Faddsite%2Fv2' class='pricing-plan-add-link'>
+                <div class='pricing-plan-add-text'>ВИБРАТИ</div>
+            </a><a href='https://accounts.svit.net/login?next=https%3A%2F%2Fsites.svit.net%2Faddsite%2Fv2' class='pricing-plan-add-link'>
+                <div class='pricing-plan-add-text'>ВИБРАТИ</div>
+            </a></div>
+    </div>
+    
+    
+    <div class="contact" id="contact">
+        <div class="contact-wrap">
+           <div class='title-4'>
+               Зв'яжіться з нами
+           </div> 
+            <form class="form">
+                <label for='name-input' class="general-text">Ім'я</label>
+                <input class="input-space" id='name-input' type="text" />
+
+                <label for='email-input' class="general-text">Ел. пошта</label>
+                <input class="input-space" id='email-input' type="text" />
+
+                <label for='comment-textarea' class="general-text">Повідомлення</label>
+                <textarea class="input-textarea" id='comment-textarea'></textarea>
+
+                <input class="input-submit" type="submit"/>
+            </form>
+        </div>
+    </div>
+    
+    <div class='footer'>
+        <div class='footer-block'>
+            <div class='footer-logo'>
+            <img src='/images/svit-logo-white-417.png' class='f-logo-img'></div>
+
+            
+            <div class='footer-social-block'>
+                <a href='https://www.facebook.com' 
+                   class='footer-social-link'>
+                    <img src='/images/facebook.png' class='footer-social-img'>
+                </a>
+                <a href='https://twitter.com' 
+                   class='footer-social-link'>
+                   <img src='/images/twitter.png' class='footer-social-img'>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
